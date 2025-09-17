@@ -1,0 +1,201 @@
+body{
+    background-color: black ;
+}
+
+/* This invloves styling the nav bar and it's content*/
+#myNavBar{
+    background-color: rgba(0, 0, 0, 0.806);
+    font-size: 120%;
+    color: green;
+    padding: 10px;
+}
+#navBrand img{
+    width: 30px ;
+}
+#navBrand img:hover{
+    width: 40px ;
+}
+#navBrand #navBrand-title{
+    color: hsl(190, 74%, 51%);
+    text-shadow: 2px 2px 5px rgb(236, 123, 123);
+    font-weight: bold;
+    font-style: italic;
+}
+
+#myNavBar ul a{
+    color: hsl(0, 0%, 85%);
+   
+    border-radius: 10px;
+    margin-left: 10px;
+    text-shadow: 1px 1px 3px rgb(91, 74, 68);
+}
+#myNavBar ul a:hover{
+    background-color: rgb(65, 113, 113);
+    font-weight: bold;
+}
+
+#myNavBar #offcanvasBtnToggle{
+    color: black ;
+    background-color: white;
+}
+
+#myNavBar #canvasContainer{
+    background-color: rgb(50, 50, 50);
+    border-radius: 15px;
+}
+#canvas-header{
+    background-color: black;
+}
+
+#canvas-header h5{
+    color: hsl(190, 74%, 51%);
+    text-shadow: 2px 2px 5px rgb(236, 123, 123);
+    font-weight: bold;
+    font-style: italic;
+}
+#canvas-header button{
+    background-color: rgb(240, 114, 114);
+    font-size: 1.3rem;
+}
+/* Styling of the main and its component */
+.myCardBody h5{
+    color: hsl(190, 74%, 51%);
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+    box-shadow: 2px 2px 2px rgb(145, 145, 233);
+    border-radius: 10px;
+    padding: 10px ;
+    margin-bottom: 20px;
+    border: none;
+}
+.cardText{
+    color: white;
+    box-shadow: 2px 2px 5px rgb(128, 128, 243);
+    padding: 15px ;
+    font-size: 1.2rem;
+    width: 100% ;
+    margin: auto ;
+    background-color: black;
+    border-radius: 10px;
+}
+.cardText div{
+    color: rgb(16, 203, 236) ;
+    font-weight: bolder;
+    font-style: italic;
+}
+.cardText p{
+    color: rgb(78, 150, 233);
+    box-shadow: 1px 1px 5px rgb(189, 189, 224);
+    border-radius: 10px;
+    font-weight: bolder;
+}
+#myCardBtn{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 200px ;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+#myProjectHeading{
+    color: rgb(6, 229, 233) ;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 5px rgb(155, 155, 236);
+    padding: 15px;
+    width: 95%;
+    border-radius: 15px;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(202, 202, 212);
+    margin-top: 100px;
+}
+#myProjectHeading:hover{
+    border-top: 3px dashed greenyellow;
+    border-left: 4px dotted rgb(243, 174, 174);
+    transition: transform 0.4s ease-in-out;
+}
+#myProjectDescription{
+    color: hsl(194, 91%, 47%) ;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+@keyframes colorStyling{
+    0%{
+        border-left: 7px solid black;
+        border-top: 7px solid black;
+    }
+    25%{
+        border-left: 7px solid rgb(245, 191, 191);
+        border-top: 7px solid rgb(204, 241, 245);
+    }
+    50%{
+        border-left: 7px solid rgb(164, 117, 117);
+        border-top: 7px solid rgb(131, 172, 177);
+    }
+    75%{
+        border-left: 7px solid rgb(70, 42, 42);
+        border-top: 7px solid rgb(55, 76, 79);
+    }
+    100%{
+        border-left: 7px solid black;
+        border-top: 7px solid black;
+    }
+}
+#myProjectContainer{
+    background-color: black;
+    padding: 15px ;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(184, 184, 237);
+}
+#myProjectContainer:hover{
+    animation-name: colorStyling;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+.cardImage:hover{
+    transform: scale(1.01);
+    border-top: 4px double rgb(76, 182, 227);
+}
+
+#myBtn{
+    color: white ;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+}
+#line{
+    color: rgb(42, 240, 55);
+    font-size: 3rem;
+    font-weight: bolder;
+    width: 70% ;
+    margin: auto ;
+    margin-top: 100px;
+    height: 6px ;
+    background-color: rgb(32, 255, 16);
+    border-radius: 5px;
+}
+
+/* This is the stylong of the footer */
+footer{
+    border-radius: 15px ;
+    padding: 20px ;
+    text-align: center;
+    
+}
+footer h3{
+    font-family: sans-serif;
+    color:hsl(190, 74%, 51%) ;
+    box-shadow: 5px 5px 10px rgb(109, 109, 246);
+    margin-top: 50px;
+    font-weight: bolder;
+    padding: 15px ;
+}

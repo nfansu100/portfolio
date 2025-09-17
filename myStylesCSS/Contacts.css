@@ -1,0 +1,255 @@
+body{
+    background-color: #000000 ;
+}
+
+/* This invloves styling the nav bar and it's content*/
+#myNavBar{
+    background-color: rgba(0, 0, 0, 0.806);
+    font-size: 120%;
+    color: green;
+    padding: 10px;
+}
+#navBrand img{
+    width: 30px ;
+}
+#navBrand img:hover{
+    width: 40px ;
+}
+#navBrand #navBrand-title{
+    color: hsl(190, 74%, 51%);
+    text-shadow: 2px 2px 5px rgb(236, 123, 123);
+    font-weight: bold;
+    font-style: italic;
+}
+
+#myNavBar ul a{
+    color: hsl(0, 0%, 85%);
+   
+    border-radius: 10px;
+    margin-left: 10px;
+    text-shadow: 1px 1px 3px rgb(91, 74, 68);
+}
+#myNavBar ul a:hover{
+    background-color: rgb(65, 113, 113);
+    font-weight: bold;
+}
+
+#myNavBar #offcanvasBtnToggle{
+    color: black ;
+    background-color: white;
+}
+
+#myNavBar #canvasContainer{
+    background-color: rgb(50, 50, 50);
+    border-radius: 15px;
+}
+#canvas-header{
+    background-color: black;
+}
+
+#canvas-header h5{
+    color: hsl(190, 74%, 51%);
+    text-shadow: 2px 2px 5px rgb(236, 123, 123);
+    font-weight: bold;
+    font-style: italic;
+}
+#canvas-header button{
+    background-color: rgb(240, 114, 114);
+    font-size: 1.3rem;
+}
+
+/* This is the styling of the main and its content */
+@keyframes colorStyling{
+    0%{
+        border-left: 7px solid black;
+        border-top: 7px solid black;
+    }
+    25%{
+        border-left: 7px solid rgb(245, 191, 191);
+        border-top: 7px solid rgb(204, 241, 245);
+    }
+    50%{
+        border-left: 7px solid rgb(164, 117, 117);
+        border-top: 7px solid rgb(131, 172, 177);
+    }
+    75%{
+        border-left: 7px solid rgb(70, 42, 42);
+        border-top: 7px solid rgb(55, 76, 79);
+    }
+    100%{
+        border-left: 7px solid black;
+        border-top: 7px solid black;
+    }
+}
+#myContactsContainer{
+    border: none;
+    margin-top: 100px;
+    padding: 20px ;
+    padding-right: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgb(162, 162, 245);
+}
+#myContactsContainer:hover{
+    animation-name: colorStyling;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+#myContactFormContainer{
+    padding: 25px ;
+    color: white;
+    border-radius: 15px;
+}
+#myContactFormContainer h3{
+    color: rgb(6, 231, 247) ;
+    font-family: sans-serif;
+    font-weight: bolder;
+    box-shadow: 2px 2px 4px rgb(129, 129, 239);
+    padding: 15px ;
+    border: none ;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.myFormlabel{
+    color: rgb(11, 255, 214) ;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.myFormInput{
+    font-size: 1.2rem;
+    background-color: black;
+
+}
+#myFormBtn{
+    color: white ;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    text-align: center;
+}
+#myContactCardBody{
+    color: white ;
+    padding: 20px ;
+}
+#myContactCardBody h3{
+    color: rgb(6, 231, 247) ;
+    font-family: sans-serif;
+    font-weight: bolder;
+    box-shadow: 2px 2px 4px rgb(129, 129, 239);
+    padding: 10px ;
+    border-radius: 15px;
+}
+#myContactCardBody h5{
+    color: rgb(96, 255, 239) ;
+    font-size: 1.1rem;
+    font-family: Arial;
+    font-weight: lighter;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+#myDirectContactContainer{
+    width: 95%;
+    margin: auto;
+    border: none;
+    padding: 10px ;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px rgb(129, 129, 239);
+    background-color: black;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+.myDirectContacts{
+    color: rgb(28, 239, 250);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#mySocialContacts{
+    border: none;
+    width: 80% ;
+    margin: auto ;
+    padding: 20px ;
+    font-size: 3rem;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px rgb(138, 138, 242);
+    margin-bottom: 30px;
+}
+.myIcons:hover{
+    font-size: 3.3rem;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 74, 101) ;
+}
+#myworkContainer h5{
+    color: rgb(6, 231, 247) ;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+#myworkContainer h6{
+    color: rgb(5, 208, 223) ;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#myworkContainer ul{
+    width: 80% ;
+    margin: auto;
+    background-color: #000000;
+}
+#myworkContainer ul .myCardList{
+    color: hsl(190, 88%, 54%);
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 110%;
+}
+#myBtn{
+    color: white ;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+}
+#line{
+    color: rgb(42, 240, 55);
+    font-size: 3rem;
+    font-weight: bolder;
+    width: 70% ;
+    margin: auto ;
+    margin-top: 100px;
+    height: 6px ;
+    background-color: rgb(32, 255, 16);
+    border-radius: 5px;
+}
+#submitMessage{
+    color: rgb(7, 228, 228) ;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px rgb(194, 194, 240);
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px ;
+    margin-bottom: 10px;
+    display: none ;
+}
+
+/* This is the stylong of the footer */
+footer{
+    border-radius: 15px ;
+    padding: 20px ;
+    text-align: center;
+    
+}
+footer h3{
+    font-family: sans-serif;
+    color:hsl(190, 74%, 51%) ;
+    box-shadow: 5px 5px 10px rgb(109, 109, 246);
+    margin-top: 50px;
+    font-weight: bolder;
+    padding: 15px ;
+}

@@ -1,0 +1,205 @@
+body{
+    background-color: black ;
+}
+
+/* This invloves styling the nav bar and it's content*/
+#myNavBar{
+    background-color: rgba(0, 0, 0, 0.806);
+    font-size: 120%;
+    color: green;
+    padding: 10px;
+}
+#navBrand img{
+    width: 30px ;
+}
+#navBrand img:hover{
+    width: 40px ;
+}
+#navBrand #navBrand-title{
+    color: hsl(190, 74%, 51%);
+    text-shadow: 2px 2px 5px rgb(236, 123, 123);
+    font-weight: bold;
+    font-style: italic;
+}
+
+#myNavBar ul a{
+    color: hsl(0, 0%, 85%);
+   
+    border-radius: 10px;
+    margin-left: 10px;
+    text-shadow: 1px 1px 3px rgb(91, 74, 68);
+}
+#myNavBar ul a:hover{
+    background-color: rgb(65, 113, 113);
+    font-weight: bold;
+}
+
+#myNavBar #offcanvasBtnToggle{
+    color: black ;
+    background-color: white;
+}
+
+#myNavBar #canvasContainer{
+    background-color: rgb(50, 50, 50);
+    border-radius: 15px;
+}
+#canvas-header{
+    background-color: black;
+}
+
+#canvas-header h5{
+    color: hsl(190, 74%, 51%);
+    text-shadow: 2px 2px 5px rgb(236, 123, 123);
+    font-weight: bold;
+    font-style: italic;
+}
+#canvas-header button{
+    background-color: rgb(240, 114, 114);
+    font-size: 1.3rem;
+}
+
+/* This is the styling of the main and its content */
+@keyframes colorStyling{
+    0%{
+        border-left: 7px solid black;
+        border-top: 7px solid black;
+    }
+    25%{
+        border-left: 7px solid rgb(245, 191, 191);
+        border-top: 7px solid rgb(204, 241, 245);
+    }
+    50%{
+        border-left: 7px solid rgb(164, 117, 117);
+        border-top: 7px solid rgb(131, 172, 177);
+    }
+    75%{
+        border-left: 7px solid rgb(70, 42, 42);
+        border-top: 7px solid rgb(55, 76, 79);
+    }
+    100%{
+        border-left: 7px solid black;
+        border-top: 7px solid black;
+    }
+}
+#educationMainContainer{
+    border: none;
+    margin-top: 100px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 3px 4px 5px rgb(149, 149, 243);
+}
+#educationMainContainer:hover{
+    animation-name: colorStyling;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+.container h1{
+    color: rgb(55, 227, 239);
+    font-style: italic;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 5px rgb(149, 149, 247);
+    padding: 10px ;
+    border-radius: 15px;
+    background-color: black;
+    
+}
+.container h1:hover{
+    border-top: 3px dashed rgb(207, 235, 164);
+    border-left: 4px groove rgb(110, 110, 250);
+}
+.cardContainer{
+    border: none;
+    box-shadow: 3px 3px 5px rgb(149, 149, 235);
+    background-color: black;
+    height: 500px;
+    overflow: hidden;
+}
+.cardContainer:hover{
+    border-left: 2px dashed rgb(50, 238, 50);
+    border-top: 3px groove rgb(234, 234, 167);
+}
+.myEducationCards{
+    width: 100% ;
+    min-height: 200px;
+    max-height: auto;
+    background-color: black;
+    border-radius: 10px;
+    padding: 15px ;
+    border: none;
+}
+.myEducationCards h5{
+    color: hsl(190, 74%, 51%);
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+    box-shadow: 2px 2px 2px rgb(145, 145, 233);
+    border-radius: 10px;
+    padding: 10px ;
+}
+.myEducationCards p{
+    color: white ;
+    font-family: sans-serif;
+    padding: 10px ;
+    font-size: 1.3rem;
+}
+.school-styling{
+    color: hsl(190, 70%, 46%);
+    font-weight: bold;
+
+}
+.myVision{
+    border: none;
+    max-width: 70%;
+    margin: auto;
+    padding: 20px ;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgb(149, 149, 235);
+    border-top: 3px dashed rgb(16, 233, 16);
+    margin-bottom: 70px;
+}
+.myVision h3{
+    color: rgb(55, 227, 239);
+    font-style: italic;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 5px rgb(149, 149, 247);
+    padding: 10px ;
+    border-radius: 15px;
+}
+.myVision h3:hover{
+    border-top: 3px dashed rgb(207, 235, 164);
+    border-left: 4px groove rgb(110, 110, 250);
+    text-shadow: 2px 2px 4px rgb(201, 232, 252);
+}
+.myVision p{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 15px ;
+}
+
+/* This is the stylong of the footer */
+footer{
+    border-radius: 15px ;
+    padding: 20px ;
+    text-align: center;
+    
+}
+footer h3{
+    font-family: sans-serif;
+    color:hsl(190, 74%, 51%) ;
+    box-shadow: 5px 5px 10px rgb(109, 109, 246);
+    margin-top: 50px;
+    font-weight: bolder;
+    padding: 15px ;
+}
+#myBtn{
+    color: white ;
+    width: 250px;
+}

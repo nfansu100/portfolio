@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY SKills</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="../myStylesCSS/Skills.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg" id="myNavBar">
+            <div class="container-fluid" >
+                <a class="navbar-brand" href="#" id="navBrand">
+                    <img class="img-fluid rounded" src="../myData/myImages/image1.jpg" alt="myself">
+                    <span id="navBrand-title">NFANSU BARROW</span>
+                </a>
+                <button id="offcanvasBtnToggle" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header" id="canvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SEE MENUS BELOW</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body" id="canvasContainer">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 list-group-flush">
+                            <li class="nav-item list-group-item">
+                                <a class="nav-link active" aria-current="page" href="../myPagesHtml/home.html">HOME</a>
+                            </li>
+                            <li class="nav-item list-group-item">
+                                <a class="nav-link" href="../myPagesHtml/About.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item list-group-item">
+                                <a class="nav-link" href="../myPagesHtml/Education.html">EDUCATION</a>
+                            </li>
+                            <li class="nav-item list-group-item">
+                                <a class="nav-link" href="../myPagesHtml/Experience.html">EXPERIENCE</a>
+                            </li>
+                            <li class="nav-item list-group-item ">
+                                <a class="nav-link" href="../myPagesHtml/Skills.html">SKILLS</a>
+                            </li>
+                            <li class="nav-item list-group-item">
+                                <a class="nav-link" href="../myPagesHtml/Projects.html">PROJECTS</a>
+                            </li>
+                            <li class="nav-item list-group-item">
+                                <a class="nav-link" href="../myPagesHtml/Certificates.html">CERTIFICATES</a>
+                            </li>
+                            <li class="nav-item list-group-item">
+                                <a class="nav-link" href="../myPagesHtml/Contacts.html">CONTACTS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="mySkillContainer">
+            <h1>MY PERSONAL SKILLS</h1>
+            <p>Kindly Click on the <span style="color: rgb(245, 106, 106);">BUTTONS</span> for full information</p>
+            <div class="container">
+
+                <div class="row buttonRowContainers bg-dark">
+                    <div class="col-12 col-md-4"><button class="btn btn-outline-primary myButtons" type="button" data-bs-toggle="collapse"  data-bs-target="#Programming" aria-expanded="false" aria-controls="collapseGroup collapseGroup1 collapseGroup2">PROGRAMMING</button></div>
+                    <div class="col-12 col-md-4"><button class="btn btn-outline-primary myButtons" type="button" data-bs-toggle="collapse"  data-bs-target="#webDevelopment" aria-expanded="false" aria-controls=" collapseGroup collapseGroup1 collapseGroup2">WEB DEVELOPMENT</button></div>
+                    <div class="col-12 col-md-4"><button class="btn btn-outline-primary myButtons" type="button" data-bs-toggle="collapse"  data-bs-target="#microcontrollers" aria-expanded="false" aria-controls=" collapseGroup collapseGroup1 collapseGroup2">MICRO-CONTROLLERS</button></div>
+                    <div class="col-12 col-md-4"><button class="btn btn-outline-primary myButtons" type="button" data-bs-toggle="collapse"  data-bs-target="#machineLearning" aria-expanded="false" aria-controls=" collapseGroup1 collapseGroup2 collapseGroup">ML / AI</button></div>
+                    <div class="col-12 col-md-4"><button class="btn btn-outline-primary myButtons" type="button" data-bs-toggle="collapse"  data-bs-target="#softwares" aria-expanded="false" aria-controls=" collapseGroup1 collapseGroup2 collapseGroup">SOFTWARES</button></div>
+                    <div class="col-12 col-md-4"><button class="btn btn-outline-primary myButtons" type="button" data-bs-toggle="collapse"  data-bs-target="#softSkills" aria-expanded="false" aria-controls=" collapseGroup2 collapseGroup1 collapseGroup">SOFTSKILLS</button></div>
+                </div>
+                <div id="elementsContainer">
+                    <!-- <div class="row mb-3" id="collapseGroup">
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                <div class="card card-body cardHeight">
+                                    Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                <div class="card card-body">
+                                    Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    
+                    <div class="row mb-3" id="collapseGroup">
+                        <!-- Programming -->
+                        <div class="col-12 col-md-4 mt-2">
+                            <div class="collapse multi-collapse" id="Programming" data-bs-parent="#collapseGroup">
+                                <div class="card card-body bg-dark cardHeight">
+                                    <div class="card-title cardTitle">Programming Languages</div>
+                                    <div class="mb-3">
+                                        <div class="card-text cardText">PYTHON <span style="color: red; margin-left: 160px;">85%</span></div>
+                                        <div class="progress myProgress" role="progressbar" aria-label="PYTHON level" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated text-bg-success progressText" style="width: 85%">85%</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="card-text cardText">C & C++ <span style="color: red; margin-left: 160px;">65%</span></div>
+                                        <div class="progress myProgress" role="progressbar" aria-label="C&C++ level" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated  text-bg-success progressText" style="width: 65%">65%</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="card-text cardText">Java<span style="color: red; margin-left: 200px;">65%</span></div>
+                                        <div class="progress myProgress" role="progressbar" aria-label="Java level" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated  progressText text-bg-success" style="width: 65%">65%</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="card-text cardText">Assembly Language<span style="color: red; margin-left: 60px;">50%</span></div>
+                                        <div class="progress myProgress" role="progressbar" aria-label="Assembly level" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated progressText text-bg-success" style="width: 50%">50%</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="card-text cardText">PLC<span style="color: red; margin-left: 200px;">60%</span></div>
+                                        <div class="progress myProgress" role="progressbar" aria-label="Assembly level" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated progressText text-bg-success" style="width: 60%">60%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Web Development -->
+                        <div class="col-12 col-md-4 mt-2">
+                            <div class="collapse multi-collapse" id="webDevelopment" data-bs-parent="#collapseGroup">
+                                <div class="card card-body bg-dark cardHeight">
+                                    <div class="card-title cardTitle">Web Development</div>
+                                    <div class="mb-3">
+                                        <div class="card-text cardText">HTML <span style="color: red; margin-left: 160px;">85%</span></div>
+                                        <div class="progress myProgress" role="progressbar" aria-label="HTML level" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated text-bg-success progressText" style="width: 85%">85%</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="card-text cardText">CSS<span style="color: red; margin-left: 190px;">80%</span></div>
+                                        <div class="progress myProgress" role="progressbar" aria-label="C&C++ level" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated  text-bg-success progressText" style="width: 80%">80%</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="card-text cardText">JAVASCRIPT<span style="color: red; margin-left: 110px;">75%</span></div>
+                                        <div class="progress myProgress" role="progressbar" aria-label="Java level" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated  progressText text-bg-success" style="width: 75%">75%</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="card-text cardText">REACT<span style="color: red; margin-left: 160px;">50%</span></div>
+                                        <div class="progress myProgress" role="progressbar" aria-label="Assembly level" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated progressText text-bg-success" style="width: 50%">50%</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="card-text cardText">BOOTSTRAP<span style="color: red; margin-left: 110px;">60%</span></div>
+                                        <div class="progress myProgress" role="progressbar" aria-label="Assembly level" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated progressText text-bg-success" style="width: 60%">60%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Embedded controlers -->
+                        <div class="col-12 col-md-4 mt-2">
+                            <div class="collapse multi-collapse" id="microcontrollers" data-bs-parent="#collapseGroup">
+                                <div class="card card-body bg-dark cardHeight">
+                                    <div class="card-title cardTitle">Embedded Controller Boards</div>
+                                    <div class="mb-3">
+                                        <div class="card-text cardText">ARDUINO <span style="color: red; margin-left: 150px;">80%</span></div>
+                                        <div class="progress myProgress" role="progressbar" aria-label="HTML level" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated text-bg-success progressText" style="width: 80%">80%</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="card-text cardText">ESP32<span style="color: red; margin-left: 195px;">75%</span></div>
+                                        <div class="progress myProgress" role="progressbar" aria-label="C&C++ level" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated  text-bg-success progressText" style="width: 75%">75%</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="card-text cardText">RASPBERRY PI<span style="color: red; margin-left: 120px;">60%</span></div>
+                                        <div class="progress myProgress" role="progressbar" aria-label="Java level" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated  progressText text-bg-success" style="width: 60%">60%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3" id="collapseGroup1">
+                        <!-- ML / AI -->
+                        <div class="col-12 col-md-4 mt-2">
+                            <div class="collapse multi-collapse" id="machineLearning" data-bs-parent="#collapseGroup1">
+                                <div class="card card-body bg-dark cardHeight">
+                                    <div class="card-title cardTitle">Machine Learning</div>
+                                    <div class="mb-3">
+                                        <div class="card-text cardText">SCIKIT-LEARN <span style="color: red; margin-left: 120px;">60%</span></div>
+                                        <div class="progress myProgress" role="progressbar" aria-label="SCIKIT-LEARN level" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated text-bg-success progressText" style="width: 60%">60%</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="card-text cardText">TENSORFLOW <span style="color: red; margin-left: 120px;">60%</span></div>
+                                        <div class="progress myProgress" role="progressbar" aria-label="TENSORFLOW" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated  text-bg-success progressText" style="width: 60%">60%</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="card-text cardText">YOLO<span style="color: red; margin-left: 205px;">70%</span></div>
+                                        <div class="progress myProgress" role="progressbar" aria-label="YOLO level" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated  progressText text-bg-success" style="width: 70%">70%</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="card-text cardText">OPEN-CV & CVZONE<span style="color: red; margin-left: 70px;">70%</span></div>
+                                        <div class="progress myProgress" role="progressbar" aria-label="OPEN-CV & CVZONE level" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated progressText text-bg-success" style="width: 70%">70%</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="card-text cardText">MEDIAPIPE<span style="color: red; margin-left: 155px;">60%</span></div>
+                                        <div class="progress myProgress" role="progressbar" aria-label="MEDIAPIPE level" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated progressText text-bg-success" style="width: 60%">60%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- DataScience -->
+                        <div class="col-12 col-md-4 mt-2">
+                            <div class="collapse multi-collapse text-start" id="machineLearning" data-bs-parent="#collapseGroup1">
+                                <div class="card card-body bg-dark cardHeight">
+                                    <div class="card-title cardTitle">Data Science</div>
+                                    <div class="mb-3">
+                                        <div class="card-text cardText">MATPLOTLIB <span style="color: red; margin-left: 100px;">50%</span></div>
+                                        <div class="progress myProgress" role="progressbar" aria-label="MATPLOTLIB" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated text-bg-success progressText" style="width: 50%">50%</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="card-text cardText">DATA VISUALIZATION <span style="color: red; margin-left: 20px;">50%</span></div>
+                                        <div class="progress myProgress" role="progressbar" aria-label="DATA VISUALIZATION" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated  text-bg-success progressText" style="width: 50%">50%</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="card-text cardText">NUMPY<span style="color: red; margin-left: 180px;">70%</span></div>
+                                        <div class="progress myProgress" role="progressbar" aria-label="NUMPY" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated  progressText text-bg-success" style="width: 70%">70%</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="card-text cardText">SQL<span style="color: red; margin-left: 100px;">70%</span></div>
+                                        <div class="progress myProgress" role="progressbar" aria-label="SQL" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated progressText text-bg-success" style="width: 70%">70%</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <div class="card-text cardText">PANDAS<span style="color: red; margin-left: 155px;">70%</span></div>
+                                        <div class="progress myProgress" role="progressbar" aria-label="PANDAS" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                            <div class="progress-bar progress-bar-striped progress-bar-animated progressText text-bg-success" style="width: 70%">70%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Softwares -->
+                        <div class="col-12 col-md-4 mt-2">
+                            <div class="collapse multi-collapse" id="softwares" data-bs-parent="#collapseGroup1">
+                                <div class="card card-body bg-dark cardHeight">
+                                    <div class="card-title cardTitle">SOFTWARE TOOLS</div>
+                                    <ul class="list-group list-group-flush bg-dark">
+                                        <li class="list-group-item bg-dark rounded"><span class="cardText card-text">Vs Code </span></li>
+                                        <li class="list-group-item bg-dark rounded"><span class="cardText card-text">Sublime Text</span></li>
+                                        <li class="list-group-item bg-dark rounded"><span class="cardText card-text">Thonny IDE</span></li>
+                                        <li class="list-group-item bg-dark rounded"><span class="cardText card-text">Github</span></li>
+                                        <li class="list-group-item bg-dark rounded"><span class="cardText card-text">Arduino IDE</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3" id="collapseGroup2">
+                        <!-- Languages -->
+                        <div class="col-12 col-md-4 mt-2">
+                            <div class="collapse multi-collapse" id="softSkills" data-bs-parent="#collapseGroup2">
+                                <div class="card card-body bg-dark cardHeight">
+                                    <div class="card-title cardTitle">LANGUAGES</div>
+                                    <ul class="list-group list-group-flush bg-dark">
+                                        <li class="list-group-item bg-dark rounded myListItems"><span class="cardText card-text">English (Fluent) </span></li>
+                                        <li class="list-group-item bg-dark rounded myListItems"><span class="cardText card-text">French (B1)</span></li>
+                                        <li class="list-group-item bg-dark rounded myListItems"><span class="cardText card-text">Arabic (Beginner)</span></li>
+                                        <li class="list-group-item bg-dark rounded myListItems"><span class="cardText card-text">Mandinka (Native)</span></li>
+                                        <li class="list-group-item bg-dark rounded myListItems"><span class="cardText card-text">Wollof</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Communications skills -->
+                        <div class="col-12 col-md-4 mt-2">
+                            <div class="collapse multi-collapse" id="softSkills" data-bs-parent="#collapseGroup2">
+                                <div class="card card-body bg-dark cardHeight">
+                                    <div class="card-title cardTitle">TECHNICAL SKILLS</div>
+                                    <ul class="list-group list-group-flush bg-dark">
+                                        <li class="list-group-item bg-dark rounded"><span class="cardText card-text">Problem Solving</span></li>
+                                        <li class="list-group-item bg-dark rounded"><span class="cardText card-text">Team work & Collaboration</span></li>
+                                        <li class="list-group-item bg-dark rounded"><span class="cardText card-text">Leadership Quality</span></li>
+                                        <li class="list-group-item bg-dark rounded"><span class="cardText card-text">Good Communication</span></li>
+                                        <li class="list-group-item bg-dark rounded"><span class="cardText card-text">Critical Thinking</span></li>
+                                        <li class="list-group-item bg-dark rounded"><span class="cardText card-text">Time Management</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <a href="../myPagesHtml/Projects.html"><button class="btn btn-outline-info btn-lg mx-auto fw-bold" id="myBtn">PROJECTS</button></a>
+        </div>
+    </main>
+
+    <div>
+        <hr id="line">
+    </div>
+
+    <footer>
+        <h3><span style="color: white;">&copy;</span>Embedded Systems And Artificial Engineering Student | Web development Enthusiast</h3>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous">
+    </script>
+    
+</body>
+</html>

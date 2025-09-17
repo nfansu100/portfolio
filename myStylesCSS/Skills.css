@@ -1,0 +1,204 @@
+body{
+    background-color: black ;
+}
+
+/* This invloves styling the nav bar and it's content*/
+#myNavBar{
+    background-color: rgba(0, 0, 0, 0.806);
+    font-size: 120%;
+    color: green;
+    padding: 10px;
+}
+#navBrand img{
+    width: 50px ;
+}
+#navBrand #navBrand-title{
+    color: hsl(190, 74%, 51%);
+    text-shadow: 2px 2px 5px rgb(236, 123, 123);
+    font-weight: bold;
+    font-style: italic;
+}
+
+#myNavBar ul a{
+    color: hsl(0, 0%, 85%);
+   
+    border-radius: 10px;
+    margin-left: 10px;
+    text-shadow: 1px 1px 3px rgb(91, 74, 68);
+}
+#myNavBar ul a:hover{
+    background-color: rgb(65, 113, 113);
+    font-weight: bold;
+}
+
+#myNavBar #offcanvasBtnToggle{
+    color: black ;
+    background-color: white;
+}
+
+#myNavBar #canvasContainer{
+    background-color: rgb(50, 50, 50);
+    border-radius: 15px;
+}
+#canvas-header{
+    background-color: black;
+}
+
+#canvas-header h5{
+    color: hsl(190, 74%, 51%);
+    text-shadow: 2px 2px 5px rgb(236, 123, 123);
+    font-weight: bold;
+    font-style: italic;
+}
+#canvas-header button{
+    background-color: rgb(240, 114, 114);
+    font-size: 1.3rem;
+}
+
+/* This is the styling of the main and it's content */
+@keyframes colorStyling{
+    0%{
+        border-left: 7px solid black;
+        border-top: 7px solid black;
+    }
+    25%{
+        border-left: 7px solid rgb(245, 191, 191);
+        border-top: 7px solid rgb(204, 241, 245);
+    }
+    50%{
+        border-left: 7px solid rgb(164, 117, 117);
+        border-top: 7px solid rgb(131, 172, 177);
+    }
+    75%{
+        border-left: 7px solid rgb(70, 42, 42);
+        border-top: 7px solid rgb(55, 76, 79);
+    }
+    100%{
+        border-left: 7px solid black;
+        border-top: 7px solid black;
+    }
+}
+#myProgress{
+    max-width: 60%;
+    display: inline;
+}
+.cardTitle{
+    color: rgb(14, 237, 249) ;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 1.3rem;
+    box-shadow: 2px 2px 5px rgb(152, 152, 236);
+    text-align: center;
+    padding: 10px ;
+    border-radius: 10px;
+    background-color: rgb(29, 18, 18);
+    margin-bottom: 50px;
+}
+.cardText{
+    color: rgb(0, 183, 255) ;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.progressText{
+    font-size: 1rem;
+    padding-top: 5px ;
+    padding-bottom: 5px;
+}
+.cardHeight{
+    min-height: 450px;
+    margin: auto ;
+    margin-top: 15px;
+}
+.myListItems:hover{
+    background-color: rgb(183, 179, 179);
+}
+#mySkillContainer{
+    max-width: 90%;
+    margin: auto ;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgb(102, 167, 252);
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+#mySkillContainer:hover{
+    animation-name: colorStyling;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+#mySkillContainer h1{
+    color: rgb(14, 237, 249) ;
+    text-align: center;
+    box-shadow: 2px 2px 3px rgb(149, 149, 234);
+    padding: 10px 15px ;
+    border-radius: 15px;
+    text-shadow: 1px 2px 5px rgb(208, 208, 240);
+    margin-bottom: 15px;
+}
+#mySkillContainer p{
+    color: rgb(6, 175, 193);
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.myButtons{
+    color: rgb(8, 199, 242);
+    width: 200px;
+    margin: auto ;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 1rem;
+    font-style: italic;
+}
+.buttonRowContainers{
+    border: none;
+    text-align: center;
+    padding: 15px ;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+#elementsContainer{
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+#myBtn{
+    color: white ;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+}
+#line{
+    color: rgb(42, 240, 55);
+    font-size: 3rem;
+    font-weight: bolder;
+    width: 70% ;
+    margin: auto ;
+    margin-top: 100px;
+    height: 6px ;
+    background-color: rgb(32, 255, 16);
+    border-radius: 5px;
+}
+
+/* This is the stylong of the footer */
+footer{
+    border-radius: 15px ;
+    padding: 20px ;
+    text-align: center;
+    
+}
+footer h3{
+    font-family: sans-serif;
+    color:hsl(190, 74%, 51%) ;
+    box-shadow: 5px 5px 10px rgb(109, 109, 246);
+    margin-top: 50px;
+    font-weight: bolder;
+    padding: 15px ;
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificates Page</title>
+    <link rel="stylesheet" href="../myStylesCSS/Certificates.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+          crossorigin="anonymous">
+</head>
+<body style="background-color: black;">
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg" id="myNavBar">
+            <div class="container-fluid" >
+                <a class="navbar-brand" href="#" id="navBrand">
+                    <img class="img-fluid rounded" src="../myData/myImages/image1.jpg" alt="myself">
+                    <span id="navBrand-title">NFANSU BARROW</span>
+                </a>
+                <button id="offcanvasBtnToggle" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header" id="canvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SEE MENUS BELOW</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body" id="canvasContainer">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 list-group-flush">
+                            <li class="nav-item list-group-item">
+                                <a class="nav-link active" aria-current="page" href="../myPagesHtml/home.html">HOME</a>
+                            </li>
+                            <li class="nav-item list-group-item">
+                                <a class="nav-link" href="../myPagesHtml/About.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item list-group-item">
+                                <a class="nav-link" href="../myPagesHtml/Education.html">EDUCATION</a>
+                            </li>
+                            <li class="nav-item list-group-item">
+                                <a class="nav-link" href="../myPagesHtml/Experience.html">EXPERIENCE</a>
+                            </li>
+                            <li class="nav-item list-group-item">
+                                <a class="nav-link" href="../myPagesHtml/Skills.html">SKILLS</a>
+                            </li>
+                            <li class="nav-item list-group-item">
+                                <a class="nav-link" href="../myPagesHtml/Projects.html">PROJECTS</a>
+                            </li>
+                            <li class="nav-item list-group-item">
+                                <a class="nav-link" href="../myPagesHtml/Certificates.html">CERTIFICATES</a>
+                            </li>
+                            <li class="nav-item list-group-item">
+                                <a class="nav-link" href="../myPagesHtml/Contacts.html">CONTACTS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <h1 id="myCertificateHeading">MY CERTIFICATES</h1>
+        <p id="myCertificateDescription">Below is all my certificates earned which shows my professional & leadership qualities</p>
+        <div class="container text-center" id="certificatContainer">
+            <div class="row mb-3">
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="card bg-secondary border-0 rounded">
+                        <div class="card-body bg-dark" id="myCardBody">
+                            <h5 class="card-title bg-dark mb-3">Computer Vision (Kaggle)</h5>
+                            <p class="card-text">Certified for practical Introduction to Image processing, Convolutional Neural Networks & Object Recognition with real datasets</p>
+                            <a href="../myData/myCertificates/computerVision.png" target="_blank" class="btn btn-outline-info fs-5 fw-bold" id="myCertificateBtn">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="card bg-secondary border-0 rounded">
+                        <div class="card-body bg-dark" id="myCardBody">
+                            <h5 class="card-title ">Deep Learning (Kaggle)</h5>
+                            <p class="card-text">Certified for Optimizing Deep Neural Networks, covering topics like Activation functions,
+                                 Dropout, Transfer Learning, and practical applications with TensorFlow/Keras.</p>
+                            <a href="../myData/myCertificates/deepLearning.png" target="_blank" class="btn btn-outline-info fs-5 fw-bold" id="myCertificateBtn">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="card bg-secondary border-0 rounded">
+                        <div class="card-body bg-dark" id="myCardBody">
+                            <h5 class="card-title">Machine Learning (Kaggle)</h5>
+                            <p class="card-text">Certified for Introduction to core ML concepts including Supervised and Unsupervised Learning,
+                                 Model Training and Evaluation, Feature Engineering, and Predictive Modeling with scikit-learn</p>
+                            <a href="../myData/myCertificates/machineLearning.png" target="_blank" class="btn btn-outline-info fs-5 fw-bold" id="myCertificateBtn">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="card bg-secondary border-0 rounded">
+                        <div class="card-body bg-dark" id="myCardBody">
+                            <h5 class="card-title">Gasam Treasurer (GASAM)</h5>
+                            <p class="card-text">This is the certificate of recognition given to me by GASAM assocation for my leadership 
+                                role as the Treasurer of the year 2025
+                            </p>
+                            <a href="../myData/myCertificates/GasamCertificateTreasurer.jpg" target="_blank" class="btn btn-outline-info fs-5 fw-bold" id="myCertificateBtn">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="card bg-secondary border-0 rounded">
+                        <div class="card-body bg-dark" id="myCardBody">
+                            <h5 class="card-title">Quranic Competiton (GASAM)</h5>
+                            <p class="card-text">This certificate has been presented to me Arabic students of Gasam's Assoication & shows my keen interest in the Quranic competition and also the love for extra
+                                curricular activities.
+                            </p>
+                            <a href="../myData/myCertificates/Islamic certification.pdf" target="_blank" class="btn btn-outline-info fs-5 fw-bold" id="myCertificateBtn">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="card bg-secondary border-0 rounded">
+                        <div class="card-body bg-dark" id="myCardBody">
+                            <h5 class="card-title">Matlab Onramp Completion (MATH WORKS)</h5>
+                            <p class="card-text">Fundamental training in MATLAB programming, including variables,
+                                scripts, data analysis, visualization, and basic automation for engineering and
+                                scientific applications</p>
+                            <a href="../myData/myCertificates/MATLAB_CERTIFICATE.pdf" target="_blank" class="btn btn-outline-info fs-5 fw-bold" id="myCertificateBtn">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="card bg-secondary border-0 rounded">
+                        <div class="card-body bg-dark" id="myCardBody">
+                            <h5 class="card-title">Responsive Web Design (Free Code Camp)</h5>
+                            <p class="card-text">Training in HTML, CSS, and responsive design principles to build user-friendly,
+                                mobile-first websites with modern layouts and accessibility best practices.</p>
+                            <a href="../myData/myCertificates/Responsive Web Design Certificate.png" target="_blank" class="btn btn-outline-info fs-5 fw-bold" id="myCertificateBtn">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="card bg-secondary border-0 rounded">
+                        <div class="card-body bg-dark" id="myCardBody">
+                            <h5 class="card-title">Maths & Science Club(Senior School)</h5>
+                            <p class="card-text">This certified me being an active executive member in the Maths & Science
+                                Club during my High School in St. Peter's. level and it also shows my determination in leadership roles.
+                            </p>
+                            <a href="../myData/myCertificates/mathsClub.jpg" target="_blank" class="btn btn-outline-info fs-5 fw-bold" id="myCertificateBtn">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-5">
+                    <div class="card bg-secondary border-0 rounded">
+                        <div class="card-body bg-dark" id="myCardBody">
+                            <h5 class="card-title">Health Training Completion</h5>
+                            <p class="card-text">This certification was presented to me after having completed training
+                                in nutrition & long term health conditions with health professors during my High School 
+                                level in St. Peter's. 
+                            </p>
+                            <a href="../myData/myCertificates/healthTraining.jpg" target="_blank" class="btn btn-outline-info fs-5 mt-1 fw-bold" id="myCertificateBtn">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="../myPagesHtml/Contacts.html"><button class="btn btn-outline-info fw-bold btn-lg " id="myBtn">CONTACTS</button></a>
+        </div>
+    </main>
+
+    <div>
+        <hr id="line">
+    </div>
+
+    <footer>
+        <h3><span style="color: white;">&copy;</span>Embedded Systems And Artificial Engineering Student | Web development Enthusiast</h3>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous">
+    </script>
+</body>
+</html>

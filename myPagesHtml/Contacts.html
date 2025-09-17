@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Contacts Page</title>
+    <link rel="stylesheet" href="../myStylesCSS/Contacts.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body style="background-color: black;">
+    
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg" id="myNavBar">
+            <div class="container-fluid" >
+                <a class="navbar-brand" href="#" id="navBrand">
+                    <img class="img-fluid rounded" src="../myData/myImages/image1.jpg" alt="myself">
+                    <span id="navBrand-title">NFANSU BARROW</span>
+                </a>
+                <button id="offcanvasBtnToggle" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header" id="canvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SEE MENUS BELOW</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body" id="canvasContainer">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 list-group-flush">
+                            <li class="nav-item list-group-item">
+                                <a class="nav-link active" aria-current="page" href="../myPagesHtml/home.html">HOME</a>
+                            </li>
+                            <li class="nav-item list-group-item">
+                                <a class="nav-link" href="../myPagesHtml/About.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item list-group-item">
+                                <a class="nav-link" href="../myPagesHtml/Education.html">EDUCATION</a>
+                            </li>
+                            <li class="nav-item list-group-item">
+                                <a class="nav-link" href="../myPagesHtml/Experience.html">EXPERIENCE</a>
+                            </li>
+                            <li class="nav-item list-group-item">
+                                <a class="nav-link" href="../myPagesHtml/Skills.html">SKILLS</a>
+                            </li>
+                            <li class="nav-item list-group-item">
+                                <a class="nav-link" href="../myPagesHtml/Projects.html">PROJECTS</a>
+                            </li>
+                            <li class="nav-item list-group-item">
+                                <a class="nav-link" href="../myPagesHtml/Certificates.html">CERTIFICATES</a>
+                            </li>
+                            <li class="nav-item list-group-item">
+                                <a class="nav-link" href="../myPagesHtml/Contacts.html">CONTACTS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="container text-center" id="myContactsContainer">
+            <div class="row mb-5">
+                <div class="col-12 col-md-6 col-lg-5" style="border-radius: 15px;">
+                    <div class="card bg-dark">
+                        <div class="card-body" id="myContactCardBody">
+                            <h3 class="card-title">CONTACTS</h3>
+                            <h5 class="card-subtitle">Let's get in touch! Feel free to reach out for collaborations, Projects or 
+                                any professional enquiries
+                            </h5>
+                            
+                            <div id="myDirectContactContainer" class="text-start">
+                                <div class="myDirectContacts">
+                                    <span><i class="bi bi-envelope-at-fill text-info"></i></span>
+                                    <span>Email: nfansubarrow300@gmail.com</span>
+                                </div>
+                                <div class="myDirectContacts">
+                                    <span><i class="bi bi-telephone-fill text-info"></i></span>
+                                    <span>Phone: +212 697 999 438</span>
+                                </div>
+                                <div class="myDirectContacts">
+                                    <span><i class="bi bi-geo-alt-fill text-info"></i></span>
+                                    <span>Location: Fes, Morocco</span>
+                                </div>
+                            </div>
+                            <div class="row" id="mySocialContacts">
+                                <div class="col text-center">
+                                    <a href="https://github.com/nfansu100" target="_blank" class="myIcons"><i class="bi bi-github text-white"></i></a>
+                                </div>
+                                <div class="col">
+                                    <a href="https://www.linkedin.com/in/nfansu-barrow-326397304/" target="_blank" class="myIcons"><i class="fa-brands fa-linkedin" style="color: rgb(102, 102, 221);"></i></a>
+                                </div>
+                                <div class="col">
+                                    <a href="https://www.kaggle.com/barrownfansuo" target="_blank" class="myIcons"><i class="fa-brands fa-kaggle"></i></a>
+                                </div>
+                            </div>
+                            <div id="myworkContainer" class="mb-2">
+                                <h5>OPEN TO WORK(REMOTE OR ON-SITE)</h5>
+                                <h6 class="card-text">AREA OF INTEREST</h6>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item card-text myCardList">Embedded Systems</li>
+                                    <li class="list-group-item card-text myCardList">Microcontroller Projects</li>
+                                    <li class="list-group-item card-text myCardList">Machine Learning</li>
+                                    <li class="list-group-item card-text myCardList">Computer Vision</li>
+                                    <li class="list-group-item card-text myCardList">Artificial Intelligence</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-7  bg-dark" id="myContactFormContainer" >
+                    <h3>For direct message Please do fill out this form</h3>
+                    <form class="text-start" action="https://formspree.io/f/mldwyrov" method="POST" id="myForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label myFormlabel">Name</label>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                                <input required name="NAME" type="text" class="form-control myFormInput fs-3 bg-light-subtle" id="name" placeholder="Kindly enter your name here..">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label myFormlabel">Email</label>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text"><i class="bi bi-envelope-fill"></i></span>
+                                <input required name="EMAIL" type="email" class="form-control bg-light-subtle fs-3" id="email" placeholder="your_email@gmail.com">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label myFormlabel" for="subject">Subject</label>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text"><i class="bi bi-chat-dots-fill"></i></span>
+                                <input required name="SUBJECT" type="text" class="form-control fs-3 bg-light-subtle" id="subject" placeholder="subject">
+                            </div>
+                        </div>
+                        <div class="mb-5">
+                            <label class="form-label myFormlabel" for="message">Message</label>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text"><i class="bi bi-chat-left-text-fill"></i></span>
+                                <textarea required name="MAESSAGE" class="form-control fs-3 bg-light-subtle" id="message" rows="3" placeholder="Type your message here..."></textarea>
+                            </div>
+                        </div>
+                        <div id="submitMessage">✅ Thanks for submitting your details</div>
+                        <div class="text-center fs-1">
+                            <button type="submit" class="btn btn-outline-info btn-lg mx-auto" id="myFormBtn">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <a href="../myPagesHtml/home.html"><button class="btn btn-outline-info fw-bold mx-auto fs-3" id="myBtn">Return Home</button></a>
+        </div>
+    </main>
+
+    <div>
+        <hr id="line">
+    </div>
+
+    <footer>
+        <h3><span style="color: white;">&copy;</span>Embedded Systems And Artificial Engineering Student | Web development Enthusiast</h3>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous">
+    </script>
+
+    <script>
+        document.getElementById("myForm").addEventListener("submit", async function(event) {
+        event.preventDefault(); // stop redirect
+
+        let name = document.getElementById("name").value.trim();
+        let email = document.getElementById("email").value.trim();
+        let subject = document.getElementById("subject").value.trim();
+        let message = document.getElementById("message").value.trim();
+
+        if (name === "" || email === "" || subject === "" || message === "") {
+            alert("⚠️ Please fill in all fields before submitting.");
+            return;
+        }
+
+        try {
+            let response = await fetch(this.action, {
+            method: this.method,
+            body: new FormData(this),
+            headers: { 'Accept': 'application/json' }
+            });
+
+            if (response.ok) {
+            document.getElementById("submitMessage").style.display = "block";
+            this.reset(); // clear form
+            // hide success after 5s
+            setTimeout(() => {
+                document.getElementById("submitMessage").style.display = "none";
+            }, 5000);
+            } else {
+            alert("❌ Something went wrong. Please try again.");
+            }
+        } catch (error) {
+            alert("⚠️ Network error. Please try again later.");
+        }
+        });
+    </script>
+
+
+    <!-- <script>
+        document.getElementById("myForm").addEventListener("submit", event =>{
+            // event.preventDefault() ;
+            let name = document.getElementById("name").value.trim() ;
+            let email = document.getElementById("email").value.trim() ;
+            let subject = document.getElementById("subject").value.trim() ;
+            let message = document.getElementById("message").value.trim() ;
+            if (name != "" && email != "" && subject != "" && message != ""){
+                this.submit() ;
+                this.reset() ;
+                name.value = ""
+                email.value = ""
+                subject.value = ""
+                message.value = ""
+                document.getElementById("submitMessage").style.display = "block" ;
+            }
+        });
+    </script> -->
+</body>
+</html>
