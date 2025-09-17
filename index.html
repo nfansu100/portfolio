@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="myStylesCSS/home.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar fixed-top navbar-expand-lg" id="myNavBar">
+                <div class="container-fluid" >
+                    <a class="navbar-brand" href="#" id="navBrand">
+                        <img class="img-fluid rounded" src="myData/myImages/image1.jpg" alt="myself">
+                        <span id="navBrand-title">NFANSU BARROW</span>
+                    </a>
+                    <button id="offcanvasBtnToggle" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header" id="canvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SEE MENUS BELOW</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+
+                        <div class="offcanvas-body" id="canvasContainer">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 list-group-flush">
+                                <li class="nav-item list-group-item">
+                                    <a class="nav-link active" aria-current="page" href="myPagesHtml/home.html">HOME</a>
+                                </li>
+                                <li class="nav-item list-group-item">
+                                    <a class="nav-link" href="myPagesHtml/About.html">ABOUT</a>
+                                </li>
+                                <li class="nav-item list-group-item">
+                                    <a class="nav-link" href="myPagesHtml/Education.html">EDUCATION</a>
+                                </li>
+                                <li class="nav-item list-group-item">
+                                    <a class="nav-link" href="myPagesHtml/Experience.html">EXPERIENCE</a>
+                                </li>
+                                <li class="nav-item list-group-item">
+                                    <a class="nav-link" href="myPagesHtml/Skills.html">SKILLS</a>
+                                </li>
+                                <li class="nav-item list-group-item">
+                                    <a class="nav-link" href="myPagesHtml/Projects.html">PROJECTS</a>
+                                </li>
+                                <li class="nav-item list-group-item">
+                                    <a class="nav-link" href="myPagesHtml/Certificates.html">CERTIFICATES</a>
+                                </li>
+                                <li class="nav-item list-group-item">
+                                    <a class="nav-link" href="myPagesHtml/Contacts.html">CONTACTS</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="container" id="main-container">
+                
+                <h1 class="bg-dark">WELCOME TO MY PORTFOLIO WEBSITE</h1>
+                <div id="myImageContainer">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                        <div class="carousel-inner">
+                            <div class="carousel-item ">
+                                <img src="myData/myImages/image4.jpg" class="img-fluid rounded " alt="my humble self">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="myData/myImages/image1.jpg" class="img-fluid rounded " alt="my humble self">
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="myData/myImages/image5.jpg" class="img-fluid rounded " alt="my humble self">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <h2 class="bg-dark">Embedded Systems And Artificial Engineering Student in ENSAF F&eacute;s</h2>
+                <a href="myPagesHtml/About.html"><button class="btn btn-outline-info btn-lg" id="myBtn">ABOUT</button></a>
+            </div>
+        </main>
+
+        <div>
+            <hr id="line">
+        </div>
+
+        <footer>
+            <h3><span style="color: white;">&copy;</span>Embedded Systems And Artificial Engineering Student | Web development Enthusiast</h3>
+        </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+                crossorigin="anonymous">
+        </script>
+    </body>
+</html>
