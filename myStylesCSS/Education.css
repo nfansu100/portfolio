@@ -116,7 +116,7 @@ body{
     border: none;
     box-shadow: 3px 3px 5px rgb(149, 149, 235);
     background-color: black;
-    height: 520px;
+    height: 550px;
 }
 .cardContainer:hover{
     border-left: 2px dashed rgb(50, 238, 50);
