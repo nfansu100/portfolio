@@ -83,7 +83,7 @@ body{
     }
 }
 #myCardImageContainer{
-    max-width: 70%;
+    width: 80%;
     margin: auto;
     border: none;
     margin-bottom: 50px;
@@ -104,6 +104,25 @@ body{
     font-weight: bold;
     font-style: italic;
     margin-bottom: 10px;
+}
+#myCVContainer{
+    border: none;
+    padding: 15px;
+    margin: auto ;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    width: 60% ;
+    box-shadow: 2px 2px 9px rgb(168, 168, 239);
+}
+#myCVContainer:hover{
+    border-top: 2px dashed greenyellow;
+    border-left: 2px dotted rgb(247, 125, 94);
+}
+#myCVContainer button{
+    color: white ;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-style: italic;
 }
 #cardText{
     margin-bottom: 20px;
