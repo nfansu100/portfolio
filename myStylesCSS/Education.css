@@ -116,7 +116,8 @@ body{
     border: none;
     box-shadow: 3px 3px 5px rgb(149, 149, 235);
     background-color: black;
-    height: 550px;
+    height: 500px;
+    overflow: auto;
 }
 .cardContainer:hover{
     border-left: 2px dashed rgb(50, 238, 50);
@@ -155,7 +156,7 @@ body{
     border: none;
     max-width: 80%;
     margin: auto;
-    padding: 20px ;
+    padding: 10px ;
     border-radius: 15px;
     box-shadow: 3px 3px 5px rgb(149, 149, 235);
     border-top: 3px dashed rgb(16, 233, 16);
